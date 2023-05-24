@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 44px 116px;
+    background: #1C1C1C;
+    font-family: 'inter', sans-serif, serif;
+ }
+
+.app {
+    width: 317px;
+    height: auto;
+    margin: auto;
+    background: #23252C;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.info > h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 21px;
+    
+}
+
+.info > h3 {
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    margin-top: 8px;
+    margin-bottom: 6px;
+
+}
+
+.info > a {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.info--link {
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 27px;
+    
+}
+
+
+.info--link > a {
+    width: 115px;
+    height: 34px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+    padding: 6px 20px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+.info--link > a:hover {
+     color: #FFFFFF;
+    background-color: #5093E2;
+}
+
+.link-image {
+    position: relative;
+    top: 3px;
+    right: 5px;
+}
+
+#LinkedIn--icon {
+    color: #FFFFFF;
+    background-color: #5093E2;
+}
+
+.about {
+    width: 247px;
+    margin: auto;
+}
+
+.about > h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.about > p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin-top: 5px;
+}
+
+.snd-about {
+    margin-top: 20px;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 64px;
+    text-align: center;
+    margin-top: 25px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
